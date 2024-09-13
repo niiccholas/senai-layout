@@ -17,3 +17,23 @@ ul, ol, li{
 
 /* fim do reset */
 
+body {
+    height: 100vh; /* altura da página */
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 200px;
+    background-color: lightblue;
+}
+
+main{
+    flex-grow: 1;
+    background-color: plum;
+}
+
+footer{
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+}
