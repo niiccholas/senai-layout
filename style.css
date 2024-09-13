@@ -1,0 +1,19 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none; /* tira o sublinhado */
+    color: inherit; /* tira o esquema de cores */
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+/* fim do reset */
+
