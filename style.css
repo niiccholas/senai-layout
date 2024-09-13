@@ -20,14 +20,14 @@ ul, ol, li{
 body {
     height: 100vh; /* altura da página */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* deixa os elementos um em cima do outro */
     padding-inline: 80px;
 }
 
 header{
     height: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* dá um espaço entre cada elemento */
     align-items: center;
 }
 
@@ -46,8 +46,18 @@ header{
 main{
     flex-grow: 1;
     background-color: plum;
+    display: flex;
 }
 
+.conteudo{
+    width: 50%;
+    background-color: tomato;
+}
+
+.destaque{
+    width: 50%;
+    background-color: lightgray;
+}
 footer{
     height: 100px;
     background-color: lightgoldenrodyellow;
