@@ -21,11 +21,26 @@ body {
     height: 100vh; /* altura da página */
     display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 
 header{
     height: 200px;
-    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: lightgreen;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 
 main{
