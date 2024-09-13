@@ -50,7 +50,6 @@ main{
 
 .conteudo{
     width: 50%;
-    background-color: tomato;
     padding-right: 128px;
     display: flex;
     flex-direction: column;
@@ -59,10 +58,12 @@ main{
 
 .conteudo h1 {
     font-size: 80px;
+    font-family: "Inria Sans", sans-serif;
 }
 
 .conteudo p {
     font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .conteudo button {
@@ -70,7 +71,8 @@ main{
     width: 300px;
     font-size: 32px;
     background-color: black;
-    color: white
+    color: white;
+    font-family: "Inria Sans", sans-serif;
 }
 .social {
     display: flex;
@@ -84,10 +86,17 @@ main{
 }
 .destaque{
     width: 50%;
-    background-color: lightgray;
+    background-image: url(./imagens/FiGP_41WAAMLeHR.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer{
     height: 100px;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(72, 72, 72, 0.454)
 }
