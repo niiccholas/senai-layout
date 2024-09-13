@@ -34,7 +34,9 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: lightgreen;
+    background-image: url(./imagens/Medo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .menu ul{
@@ -78,6 +80,7 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
 .social div{
     height: 80px;
     width: 80px;
