@@ -81,6 +81,21 @@ main{
     justify-content: space-between;
 }
 
+.social :nth-child(1) {
+    background-image: url(./imagens/x.avif);
+    background-size: contain;
+}
+
+.social :nth-child(2) {
+    background-image: url(./imagens/pinterest.png);
+    background-size: contain;
+}
+
+.social :nth-child(3) {
+    background-image: url(./imagens/tiktok.webp);
+    background-size: contain;
+}
+
 .social div{
     height: 80px;
     width: 80px;
